@@ -1,0 +1,33 @@
+* {
+    box-sizing: content-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-input {
+    margin: 0;
+    border: 1px solid grey;
+    border-top: 2px solid grey;
+}
+
+.add,
+.save {
+    border: 2px solid grey;
+    border-top: 1px solid grey;
+}
+
+
+
+
+
